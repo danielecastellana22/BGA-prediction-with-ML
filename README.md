@@ -5,17 +5,23 @@ novel SNP panel and Supervised Learning approaches* by Grazzini et al.
 
 If you use this code in your research, please cite:
 
+> Predictive Modeling of Biogeographical Ancestry using a novel SNP panel and Supervised Learning approaches. Cosimo 
+> Grazzini, Giorgia Spera, Stefania Morelli, Daniele Castellana, Giulia Cosenza, Michela Baccini, Giulia Cereda and 
+> Elena Pilli. *Experts Systems with Applications*, 2025. <ins>Under review</ins>.
+
 ```
 @article{grazzini2025,
     title = {Predictive Modeling of Biogeographical Ancestry using a novel SNP panel and Supervised Learning 
     approaches},
-    author = {Cosimo Grazzinia and Giorgia Spera and Stefania Morelli and Daniele Castellana and Giulia Cosenza 
+    author = {Cosimo Grazzini and Giorgia Spera and Stefania Morelli and Daniele Castellana and Giulia Cosenza 
     and Michela Baccini and Giulia Cereda and Elena Pilli},
     year = {2025},
     journal = {Experts Systems with Applications}
     note = {Under review}
 }
 ```
+
+
 
 ## Project Structure
 
