@@ -1,0 +1,16 @@
+estimator: sklearn.linear_model.LogisticRegression
+oversampling: True
+one_hot: True
+hyperparams_grid:
+  penalty: ['l2', 'l1']
+  dual: False
+  tol: 0.0001
+  C: [0.0001, 0.001, 0.01, 0.1, 1, 10, 100, 1000]
+  fit_intercept: True
+  intercept_scaling: 1
+  class_weight: null
+  solver: ['saga']
+  max_iter: 10000
+  multi_class:  'multinomial'
+  warm_start: False
+  l1_ratio: null

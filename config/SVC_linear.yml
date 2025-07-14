@@ -1,0 +1,15 @@
+estimator: sklearn.svm.LinearSVC
+oversampling: True
+one_hot: True
+hyperparams_grid:
+  C: [0.0001, 0.0005, 0.001, 0.01, 0.1, 1, 10, 50]
+  #kernel: ['linear']
+  #class_weight: null
+  #shrinking: True
+  #probability: False
+  #tol: 0.001
+  #cache_size: 200
+  #max_iter: -1
+  dual: 'auto'
+  multi_class: 'ovr'
+  #break_ties: False

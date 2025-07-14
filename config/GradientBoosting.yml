@@ -1,0 +1,23 @@
+estimator: sklearn.ensemble.GradientBoostingClassifier
+oversampling: True
+one_hot: True
+hyperparams_grid:
+  loss: 'log_loss'
+  learning_rate: [  0.001, 0.1, 0.3]
+  n_estimators: [ 50, 100, 300, 500]
+  subsample: 1.0 #if subsample<1 is Stochastic Gradient Boosting
+  criterion: ['friedman_mse']
+  min_samples_split: [2, 5, 10]
+  min_samples_leaf: [1, 5, 10]
+  min_weight_fraction_leaf: 0.0
+  max_depth: 3
+  min_impurity_decrease: 0.0
+  init: null
+  max_features: [ 50, 100, 300, 500]
+  max_leaf_nodes: null
+  warm_start: False
+  validation_fraction: 0.1
+  n_iter_no_change: null
+  tol: 0.0001
+  ccp_alpha: 0.0 #Minimal Cost-Complexity Pruning
+  #tempo impiegato 8 ore e 41 minuti su 60 core
