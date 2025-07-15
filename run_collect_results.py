@@ -16,8 +16,11 @@ from utils import *
 
 METRICS_y = {'B_ACC': balanced_accuracy_score, 'ACC': accuracy_score,
              'SPEC': lambda *xx: specificity_score(*xx, average='macro'),
-             'SENS': lambda *xx: sensitivity_score(*xx, average='macro')}
-METRICS_p = {'ROC_AUC': lambda *xx: roc_auc_score(*xx, multi_class='ovr', average='macro')}
+             'SENS': lambda *xx: sensitivity_score(*xx, average='macro'),
+             'RECALL': lambda *xx: recall_score(*xx, average='macro'),
+             'PRECISION': lambda *xx: precision_score(*xx, average='macro'),
+             'F1': lambda *xx: f1_score(*xx, average='macro')}
+METRICS_p = {'ROC_AUC': lambda *xx: roc_auc_score(*xx, multi_class='ovo', average='macro')}
 
 
 def compute_metrics(y_true, y_pred, p_pred):
