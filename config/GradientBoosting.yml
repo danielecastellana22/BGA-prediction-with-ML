@@ -20,4 +20,3 @@ hyperparams_grid:
   n_iter_no_change: null
   tol: 0.0001
   ccp_alpha: 0.0 #Minimal Cost-Complexity Pruning
-  #tempo impiegato 8 ore e 41 minuti su 60 core
