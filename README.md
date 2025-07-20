@@ -38,7 +38,7 @@ If you use this code in your research, please cite:
 
 - Handles missing values (removes columns with >3.5% missing data)
 - Performs label encoding for regions
-- Creates separate datasets for Giulia regions and continental regions
+- Creates separate datasets for inter- and detailed-continental labels
 - Splits data into train/validation/test sets using stratified k-fold
 
 ## Model Configuration
